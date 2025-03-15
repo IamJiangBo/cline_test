@@ -20,10 +20,10 @@ npx -y @modelcontextprotocol/server-github
 {
   "mcpServers": {
     "github": {
-      "command": "node",
-      "args": ["/path/to/github-mcp-server/build/index.js"],
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
       "env": {
-        "GITHUB_TOKEN": "your_personal_access_token"
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your_personal_access_token"
       }
     }
   }

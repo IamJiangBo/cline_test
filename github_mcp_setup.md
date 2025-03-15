@@ -24,7 +24,9 @@ npx -y @modelcontextprotocol/server-github
       "args": ["-y", "@modelcontextprotocol/server-github"],
       "env": {
         "GITHUB_PERSONAL_ACCESS_TOKEN": "your_personal_access_token"
-      }
+      },
+      "disabled": false,
+      "autoApprove": []
     }
   }
 }
